@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Bijak Uang – Kelompok 5 XI-C</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,400&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet"/>
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav id="navbar">
+    <div class="nav-brand">💰 Bijak Uang</div>
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About Us</a></li>
+      <li><a href="#tutorial">Tutorial</a></li>
+      <li><a href="#article">Artikel</a></li>
+      <li><a href="#calculator">Kalkulator</a></li>
+      <li><a href="#games">Games</a></li>
+      <li><a href="#team">Team</a></li>
+    </ul>
+    <div class="nav-toggle" onclick="toggleMenu()">☰</div>
+  </nav>
+
+  <!-- HERO -->
+  <section id="home" class="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-content">
+      <span class="hero-tag">Kelompok 5 Kokurikuler XI-C</span>
+      <h1>Bijak<br/><em>Uang</em></h1>
+      <p>Selamat datang! Belajar literasi keuangan dengan cara yang menyenangkan dan Islami.</p>
+      <a href="#about" class="btn-primary">Mulai Belajar ↓</a>
+    </div>
+    <div class="hero-deco">
+      <div class="deco-circle c1"></div>
+      <div class="deco-circle c2"></div>
+      <div class="deco-circle c3"></div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section about-section">
+    <div class="container">
+      <div class="section-label">Tentang Kami</div>
+      <h2 class="section-title">About Us</h2>
+      <p class="about-subtitle"><em>Made by Kelompok 5 Kokurikuler XI-C</em></p>
+      <p class="about-desc">
+        Media pembelajaran melalui Website merupakan media belajar yang efektif dan mudah dijangkau dari berbagai tempat.
+        Maka dari itu, kami Kelompok 5 Kokurikuler XI-C membangun inovasi dan pengembangan digital secara manual untuk
+        pihak yang membuat ataupun yang menjadi konsumen.
+      </p>
+
+      <div class="mapel-grid">
+        <div class="mapel-card">
+          <div class="mapel-icon">📐</div>
+          <h3>Matematika</h3>
+          <p>Bentuk aplikatif dari Mata Pelajaran Matematika, sebagai panduan dalam pembuatan dasar website dan kalkulator keuangan.</p>
+        </div>
+        <div class="mapel-card">
+          <div class="mapel-icon">📝</div>
+          <h3>Bahasa Indonesia</h3>
+          <p>Penggunaan bahasa yang baik dalam website agar mudah dipahami oleh semua kalangan.</p>
+        </div>
+        <div class="mapel-card">
+          <div class="mapel-icon">🕌</div>
+          <h3>Pendidikan Agama Islam</h3>
+          <p>Memuat unsur agama dalam penyampaian materi tentang pengelolaan keuangan secara Islami.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TUTORIAL -->
+  <section id="tutorial" class="section tutorial-section">
+    <div class="container">
+      <div class="section-label">Panduan</div>
+      <h2 class="section-title">Tutorial</h2>
+      <p class="section-sub"><em>Buat kalian yang bingung, bisa lihat tutorial penggunaan website kami di bawah ini ya!</em></p>
+
+      <div class="tutorial-grid">
+        <div class="tutorial-card">
+          <div class="tut-num">01</div>
+          <div class="tut-icon">🧭</div>
+          <h3>Navigasi Website</h3>
+          <p>Gunakan menu navigasi di bagian atas untuk berpindah antar halaman. Klik nama section yang ingin dituju.</p>
+        </div>
+        <div class="tutorial-card">
+          <div class="tut-num">02</div>
+          <div class="tut-icon">📖</div>
+          <h3>Baca Artikel</h3>
+          <p>Buka section Artikel untuk membaca berbagai informasi tentang literasi keuangan dan kaitannya dengan Islam.</p>
+        </div>
+        <div class="tutorial-card">
+          <div class="tut-num">03</div>
+          <div class="tut-icon">🧮</div>
+          <h3>Gunakan Kalkulator</h3>
+          <p>Masuk ke Kalkulator Keuangan, isi pendapatan dan pengeluaran, lalu lihat analisis keuangan kamu.</p>
+        </div>
+        <div class="tutorial-card">
+          <div class="tut-num">04</div>
+          <div class="tut-icon">🎮</div>
+          <h3>Main Games</h3>
+          <p>Coba Games Simulasi Investasi untuk belajar cara mengelola uang sambil bermain secara interaktif.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ARTICLE -->
+  <section id="article" class="section article-section">
+    <div class="container">
+      <div class="section-label">Bacaan</div>
+      <h2 class="section-title">Artikel</h2>
+      <p class="section-sub"><em>Kumpulan informasi tentang keuangan.</em></p>
+
+      <div class="article-wrapper">
+        <div class="article-block">
+          <h3>📌 Kenapa mengelola keuangan itu penting?</h3>
+          <p>Keuangan adalah salah satu aspek penting dalam kehidupan. Baik itu dalam kehidupan sehari-hari, keluarga, maupun bisnis. Dalam Islam, pengelolaan keuangan tidak hanya berkaitan dengan aspek duniawi, tetapi juga dimensi spiritual yang mendalam. Islam mengajarkan prinsip-prinsip tentang bagaimana seseorang harus mengelola keuangannya agar tetap sesuai dengan nilai agama, seperti keadilan, keseimbangan, dan keberkahan <span class="source">(Sumber: DompetDhuaf)</span></p>
+        </div>
+        <div class="article-block">
+          <h3>🌙 Apa kaitan mengelola uang dengan ajaran Islam?</h3>
+          <p>Pengelolaan keuangan dalam Islam dapat dilakukan dengan melakukan zakat. Salah satu zakat yang wajib dilakukan umat muslim adalah zakat mal. Mal berasal dari kata bahasa Arab yang artinya harta atau kekayaan (al-amwal, jamak dari kata mal) adalah "segala hal yang diinginkan manusia untuk disimpan dan dimiliki" (Lisan ul-Arab). Jika total harta kita telah mencapai atau melebihi nisab dalam satu tahun, maka kita wajib mengeluarkan zakat sebesar 2,5%.</p>
+        </div>
+        <div class="article-block">
+          <h3>📖 Surat dalam Al-Quran tentang Berzakat</h3>
+          <p>Zakat maal memiliki dasar hukum yang jelas dalam Islam, tertera di dalam Al-Qur'an maupun hadis Rasulullah. Allah Swt. berfirman dalam Al-Qur'an yang artinya, <em>"Ambillah zakat dari harta mereka (guna) menyucikan dan membersihkan mereka,"</em> (QS. At-Taubah: 103)</p>
+        </div>
+        <div class="article-block">
+          <h3>⚖️ Dasar dalam Pengelolaan Keuangan</h3>
+          <p>Prinsip ini juga sejalan dengan pengelolaan keuangan seperti konsep 50/20/30, yaitu membagi harta untuk kebutuhan, tabungan, dan pengeluaran lain termasuk sedekah. Dengan pengelolaan keuangan yang baik, seseorang akan lebih siap menunaikan zakat saat sudah memenuhi syarat. Pada akhirnya, fitur ini mengajarkan bahwa keuangan dalam Islam menekankan keseimbangan, tanggung jawab, dan kepedulian sosial.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- KALKULATOR -->
+  <section id="calculator" class="section calc-section">
+    <div class="container">
+      <div class="section-label">Hitung Yuk</div>
+      <h2 class="section-title">Kalkulator Keuangan</h2>
+      <p class="section-sub"><em>Anggota kelompok 5 Kokurikuler Kelas XI-C</em></p>
+
+      <div class="calc-wrapper">
+        <div class="calc-box">
+          <h3>Pencatatan Keuangan Mandiri</h3>
+          <div class="calc-field">
+            <label>💵 Pendapatan Bulanan (Rp)</label>
+            <input type="number" id="income" placeholder="contoh: 3000000" oninput="calculate()"/>
+          </div>
+          <div class="calc-field">
+            <label>🏠 Kebutuhan Pokok (Rp)</label>
+            <input type="number" id="needs" placeholder="contoh: 1500000" oninput="calculate()"/>
+          </div>
+          <div class="calc-field">
+            <label>🛍️ Keinginan / Hiburan (Rp)</label>
+            <input type="number" id="wants" placeholder="contoh: 600000" oninput="calculate()"/>
+          </div>
+          <div class="calc-field">
+            <label>🕌 Zakat / Sedekah (Rp)</label>
+            <input type="number" id="zakat" placeholder="contoh: 75000" oninput="calculate()"/>
+          </div>
+
+          <div class="calc-result" id="calcResult" style="display:none">
+            <div class="result-row"><span>Total Pengeluaran</span><span id="resTotal">-</span></div>
+            <div class="result-row"><span>Sisa / Tabungan</span><span id="resSavings">-</span></div>
+            <div class="result-row"><span>Zakat 2.5% (otomatis)</span><span id="resZakat">-</span></div>
+            <div class="result-status" id="resStatus"></div>
+          </div>
+        </div>
+
+        <div class="calc-info-box">
+          <h3>💡 Konsep 50/20/30</h3>
+          <div class="konsep-item">
+            <div class="konsep-bar" style="width:50%; background: var(--accent1)"></div>
+            <span><strong>50%</strong> – Kebutuhan Pokok</span>
+          </div>
+          <div class="konsep-item">
+            <div class="konsep-bar" style="width:30%; background: var(--accent2)"></div>
+            <span><strong>30%</strong> – Keinginan / Hiburan</span>
+          </div>
+          <div class="konsep-item">
+            <div class="konsep-bar" style="width:20%; background: var(--accent3)"></div>
+            <span><strong>20%</strong> – Tabungan & Sedekah</span>
+          </div>
+          <p class="konsep-note">Konsep ini membantu kamu membagi penghasilan secara seimbang agar keuangan tetap sehat dan ibadah tetap berjalan.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- GAMES -->
+  <section id="games" class="section games-section">
+  <div class="container">
+    <div class="section-label">Interaktif</div>
+    <h2 class="section-title">Coba Investasi</h2>
+    <p class="section-sub"><em>Selamat mencoba!</em></p>
+
+    <div class="games-wrapper">
+      <div class="game-intro">
+        <h3 style="font-family: 'Playfair Display', serif; font-size: 2.5rem; margin-bottom: 10px;">Kamu Pilih.</h3>
+        <p style="color: blue; font-weight: bold; font-style: italic; margin-bottom: 20px;">Hasilnya bicara.</p>
+        <p>Pilih investasi apapun yang kamu mau — tidak ada petunjuk, tidak ada bocoran. Masukkan modal, lihat hasilnya sendiri, dan pelajari kenapa hasilnya begitu.</p>
+      </div>
+
+      <div class="invest-grid">
+        <div class="invest-card" onclick="selectInvest(this, 'arisan')" data-rate="0.03" data-label="Arisan">
+          <div class="inv-icon">🙌</div>
+          <h4>Arisan</h4>
+          <p>Kumpul uang bareng anggota, giliran dapat.</p>
+          <div class="dots-placeholder">● ● ●</div>
+        </div>
+        <div class="invest-card" onclick="selectInvest(this, 'ayam')" data-rate="0.20" data-label="Ternak Ayam">
+          <div class="inv-icon">🐔</div>
+          <h4>Ternak Ayam</h4>
+          <p>Usaha peternakan ayam skala rumahan.</p>
+          <div class="dots-placeholder">● ● ●</div>
+        </div>
+        <div class="invest-card" onclick="selectInvest(this, 'koperasi')" data-rate="0.07" data-label="Koperasi Simpan">
+          <div class="inv-icon">🤝</div>
+          <h4>Koperasi Simpan</h4>
+          <p>Simpan uang di koperasi, dapat imbal hasil.</p>
+          <div class="dots-placeholder">● ● ●</div>
+        </div>
+        <div class="invest-card" onclick="selectInvest(this, 'deposito')" data-rate="0.05" data-label="Deposito Bank">
+          <div class="inv-icon">🏢</div>
+          <h4>Deposito Bank</h4>
+          <p>Tabungan berjangka dengan bunga tetap.</p>
+          <div class="dots-placeholder">● ● ●</div>
+        </div>
+        <div class="invest-card" onclick="selectInvest(this, 'emas')" data-rate="0.12" data-label="Emas / Logam Mulia">
+          <div class="inv-icon">🥇</div>
+          <h4>Emas / Logam Mulia</h4>
+          <p>Beli emas fisik atau digital sebagai aset.</p>
+          <div class="dots-placeholder">● ● ●</div>
+        </div>
+        <div class="invest-card" onclick="selectInvest(this, 'reksa')" data-rate="0.14" data-label="Reksa Dana Syariah">
+          <div class="inv-icon">📊</div>
+          <h4>Reksa Dana Syariah</h4>
+          <p>Investasi dikelola manajer profesional.</p>
+          <div class="dots-placeholder">● ● ●</div>
+        </div>
+      </div>
+
+      <div class="game-controls">
+        <div class="control-row">
+          <label><strong>Berapa modal kamu?</strong></label>
+          <div class="chip-row">
+            <button class="chip" onclick="setModal(500000)">Rp 500 rb</button>
+            <button class="chip" onclick="setModal(1000000)">Rp 1 Jt</button>
+            <button class="chip" onclick="setModal(2000000)">Rp 2 Jt</button>
+            <button class="chip" onclick="setModal(5000000)">Rp 5 Jt</button>
+            <button class="chip" onclick="setModal(10000000)">Rp 10 Jt</button>
+          </div>
+          <input type="number" id="modalInput" placeholder="Rp Atau ketik sendiri..." oninput="gameCalc()"/>
+        </div>
+        <div class="control-row">
+          <label><strong>Simulasi berapa lama?</strong></label>
+          <div class="chip-row">
+            <button class="chip dur" onclick="setDur(1)">1 bulan</button>
+            <button class="chip dur" onclick="setDur(3)">3 bulan</button>
+            <button class="chip dur" onclick="setDur(6)">6 bulan</button>
+            <button class="chip dur active" onclick="setDur(12)">1 tahun</button>
+            <button class="chip dur" onclick="setDur(24)">2 tahun</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="game-result" id="gameResult" style="display:none; margin-top: 20px; border: 1px solid #eee; border-radius: 12px; padding: 20px;">
+  <h3 style="font-family: 'Playfair Display', serif; margin-bottom: 15px;">Hasil Simulasi</h3>
+  
+  <div style="display: flex; justify-content: space-between; margin-bottom: 10px;">
+    <span>Investasi</span>
+    <span id="grLabel" style="font-weight: bold;">-</span>
+  </div>
+  
+  <div style="display: flex; justify-content: space-between; margin-bottom: 10px;">
+    <span>Modal Awal</span>
+    <span id="grModal">-</span>
+  </div>
+
+  <div style="display: flex; justify-content: space-between; margin-bottom: 10px;">
+    <span>Estimasi Hasil Akhir</span>
+    <span id="grHasil">-</span>
+  </div>
+
+  <div style="display: flex; justify-content: space-between; padding-top: 10px; border-top: 1px solid #eee; font-weight: bold;">
+    <span>Keuntungan/Kerugian</span>
+    <span id="grUntung">-</span>
+  </div>
+
+  <div style="margin-top: 20px; background: #f9f9f9; padding: 15px; border-radius: 8px;">
+    <p id="gameNote" style="font-size: 0.9rem; color: #444; line-height: 1.5;"></p>
+  </div>
+</div>
+
+  <!-- TEAM -->
+  <section id="team" class="section team-section">
+    <div class="container">
+      <div class="section-label">Kenalan Yuk</div>
+      <h2 class="section-title">Our Team</h2>
+      <p class="section-sub"><em>Anggota kelompok 5 Kokurikuler Kelas XI-C</em></p>
+
+      <div class="team-grid">
+        <div class="team-card">
+          <div class="avatar"><img src="FOTO ERVAN.jpeg" alt="Ervan Jamalulain"></div>
+          <h4>Ervan Jamalulain</h4>
+          <span class="absen">Absen 11</span>
+        </div>
+        <div class="team-card">
+          <div class="avatar"><img src="FOTO JUNE FIX.jpeg" alt="Juneeza Myisha"></div>
+          <h4>Juneeza Myisha</h4>
+          <span class="absen">Absen 17</span>
+        </div>
+        <div class="team-card">
+          <div class="avatar"><img src="FATIR FOTO KEDUA.jpeg" alt="Muhammad Al'Fatir"></div>
+          <h4>Muhammad Al Fatir</h4>
+          <span class="absen">Absen 21</span>
+        </div>
+        <div class="team-card">
+          <div class="avatar"><img src="FOTO RAFFI.jpeg" alt="Muhammad Raffi"></div>
+          <h4>Muhammad Raffi</h4>
+          <span class="absen">Absen 24</span>
+        </div>
+        <div class="team-card">
+          <div class="avatar"><img src="FOTO PONCO.jpeg" alt="Ponco Wibowo"></div>
+          <h4>Ponco Wibowo</h4>
+          <span class="absen">Absen 25</span>
+        </div>
+        <div class="team-card">
+          <div class="avatar"><img src="foto renata.jpeg" alt="Renata Angtona"></div>
+          <h4>Renata Angtona</h4>
+          <span class="absen">Absen 33</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer id="info" class="footer">
+    <div class="footer-inner">
+      <div class="footer-col">
+        <h4>ℹ️ Info</h4>
+        <p><em>Informasi lebih lanjut tentang website kelompok kami</em></p>
+        <p>Penggunaan website masih dalam <strong>TAHAP PENGEMBANGAN</strong>.</p>
+      </div>
+      <div class="footer-col">
+        <h4>📞 Contact</h4>
+        <p>Juneeza XI-C</p>
+        <p>(+62 812 8245 0589)</p>
+        <p>Fatir XI-C</p>
+        <p>(+62 858 7830 9793)</p>
+      </div>
+      <div class="footer-col">
+        <h4>📍 Maps</h4>
+        <p>Jl. Daha 2 No.15A, RT.1/RW.1, Selong, Kec. Kby. Baru, Kota Jakarta Selatan, DKI Jakarta 12110</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 Bijak Uang – Kelompok 5 Kokurikuler XI-C &nbsp;|&nbsp; Semua hak dilindungi.</p>
+    </div>
+  </footer>
+
+  <script>
+    // NAV SCROLL
+    window.addEventListener('scroll', () => {
+      document.getElementById('navbar').classList.toggle('scrolled', window.scrollY > 50);
+    });
+    function toggleMenu() {
+      document.querySelector('.nav-links').classList.toggle('open');
+    }
+
+    // KALKULATOR
+    function calculate() {
+      const income = parseFloat(document.getElementById('income').value) || 0;
+      const needs = parseFloat(document.getElementById('needs').value) || 0;
+      const wants = parseFloat(document.getElementById('wants').value) || 0;
+      const zakat = parseFloat(document.getElementById('zakat').value) || 0;
+      if (income === 0) { document.getElementById('calcResult').style.display = 'none'; return; }
+      const total = needs + wants + zakat;
+      const savings = income - total;
+      const autoZakat = income * 0.025;
+      document.getElementById('resTotal').textContent = 'Rp ' + total.toLocaleString('id-ID');
+      document.getElementById('resSavings').textContent = 'Rp ' + savings.toLocaleString('id-ID');
+      document.getElementById('resZakat').textContent = 'Rp ' + autoZakat.toLocaleString('id-ID');
+      const st = document.getElementById('resStatus');
+      if (savings >= 0) {
+        st.textContent = '✅ Keuanganmu sehat! Sisa bisa ditabung atau diinvestasikan.';
+        st.className = 'result-status good';
+      } else {
+        st.textContent = '⚠️ Pengeluaran melebihi pendapatan. Perlu penyesuaian!';
+        st.className = 'result-status bad';
+      }
+      document.getElementById('calcResult').style.display = 'block';
+    }
+
+    // GAMES
+    let selectedRate = null, selectedLabel = '', modalVal = 0, durVal = 12;
+
+    function selectInvest(el, key) {
+      document.querySelectorAll('.invest-card').forEach(c => c.classList.remove('active'));
+      el.classList.add('active');
+      selectedRate = parseFloat(el.dataset.rate);
+      selectedLabel = el.dataset.label;
+      gameCalc();
+    }
+
+    function setModal(v) {
+      document.querySelectorAll('.chip:not(.dur)').forEach(c => c.classList.remove('active'));
+      event.target.classList.add('active');
+      modalVal = v;
+      document.getElementById('modalInput').value = v;
+      gameCalc();
+    }
+
+    function setDur(m) {
+      document.querySelectorAll('.chip.dur').forEach(c => c.classList.remove('active'));
+      event.target.classList.add('active');
+      durVal = m;
+      gameCalc();
+    }
+
+    function gameCalc() {
+  const manual = parseFloat(document.getElementById('modalInput').value);
+  if (!isNaN(manual) && manual > 0) modalVal = manual;
+  
+  if (!selectedRate || !modalVal) return;
+
+  let hasil = 0;
+  let pesanEdukasi = "";
+  let saranAlternatif = "";
+  const key = document.querySelector('.invest-card.active')?.getAttribute('onclick').match(/'([^']+)'/)?.[1];
+
+  // LOGIKA BERDASARKAN JENIS INVESTASI & DURASI
+  switch(key) {
+    case 'arisan':
+      hasil = modalVal; 
+      pesanEdukasi = "Di Arisan, uang yang kamu dapatkan **sama persis** dengan modalmu. Tidak ada pertumbuhan nilai karena ini hanya titipan uang bergilir.";
+      saranAlternatif = "💡 <strong>Saran:</strong> Jika tujuanmu mencari keuntungan dalam " + durVal + " bulan, lebih baik pilih <strong>Reksa Dana Syariah</strong> agar uangmu berkembang.";
+      break;
+
+    case 'ayam':
+      if (durVal < 12) {
+        // Simulasi rugi operasional jika di bawah setahun
+        hasil = modalVal * 0.85; 
+        pesanEdukasi = "Wah, kalau cuma " + durVal + " bulan, ayam kamu belum sempat panen tapi kamu sudah harus bayar bibit dan pakan. Akibatnya modalmu malah berkurang.";
+        saranAlternatif = "💡 <strong>Saran Ahli:</strong> Untuk jangka pendek (" + durVal + " bulan), mending pilih <strong>Deposito Bank</strong> atau <strong>Reksa Dana</strong> yang hasilnya pasti dan tidak repot mengurus operasional.";
+      } else {
+        hasil = modalVal * 1.4; 
+        pesanEdukasi = "Pilihan bagus! Dalam jangka waktu 1 tahun ke atas, ternak ayam mulai menghasilkan keuntungan dari perkembangbiakan dan hasil panen.";
+      }
+      break;
+
+    case 'emas':
+      hasil = modalVal * Math.pow(1 + (0.10/12), durVal);
+      pesanEdukasi = "Emas adalah pelindung nilai yang stabil. Sangat aman, tapi kenaikan harganya biasanya baru terasa signifikan setelah beberapa tahun.";
+      if (durVal < 6) {
+          saranAlternatif = "💡 <strong>Info:</strong> Untuk waktu sesingkat " + durVal + " bulan, keuntungan emas mungkin habis dimakan biaya selisih harga jual-beli.";
+      }
+      break;
+
+    case 'deposito':
+      hasil = modalVal * Math.pow(1 + (0.04/12), durVal);
+      pesanEdukasi = "Deposito sangat aman untuk jangka pendek " + durVal + " bulan, meskipun keuntungan yang didapat cukup kecil dibandingkan bisnis riil.";
+      break;
+
+    case 'reksa':
+      hasil = modalVal * Math.pow(1 + (0.14/12), durVal);
+      pesanEdukasi = "Reksa Dana Syariah cukup fleksibel untuk jangka waktu " + durVal + " bulan. Uangmu dikelola profesional secara halal.";
+      break;
+
+    default:
+      const monthlyRate = selectedRate / 12;
+      hasil = modalVal * Math.pow(1 + monthlyRate, durVal);
+      pesanEdukasi = "Investasi ini memberikan imbal hasil sesuai dengan profil risiko dan sistem bagi hasil.";
+  }
+
+  const untung = hasil - modalVal;
+
+  // UPDATE TAMPILAN
+  document.getElementById('grLabel').textContent = selectedLabel;
+  document.getElementById('grModal').textContent = 'Rp ' + modalVal.toLocaleString('id-ID');
+  document.getElementById('grHasil').textContent = 'Rp ' + Math.round(hasil).toLocaleString('id-ID');
+  
+  // Warna teks keuntungan (merah jika rugi, hijau jika untung)
+  const untungEl = document.getElementById('grUntung');
+  untungEl.textContent = (untung >= 0 ? '+ Rp ' : '- Rp ') + Math.abs(Math.round(untung)).toLocaleString('id-ID');
+  untungEl.style.color = untung >= 0 ? "#27ae60" : "#e74c3c";
+
+  // Tampilkan Pesan & Saran di Kotak Note
+  document.getElementById('gameNote').innerHTML = `
+    <p>${pesanEdukasi}</p>
+    ${saranAlternatif ? `<div style="margin-top:12px; padding:10px; border-left:4px solid #3498db; background:#f0f7ff; color:#2c3e50; font-size:0.9rem;">${saranAlternatif}</div>` : ''}
+  `;
+
+  document.getElementById('gameResult').style.display = 'block';
+  
+  // Efek scroll halus ke hasil biar langsung terbaca
+  document.getElementById('gameResult').scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+}
+  </script>
+
+</body>
+</html>
